@@ -7,7 +7,7 @@ spring:
   datasource:
     username: root        #????????
     password: 123456        #???????
-    url: jdbc:mysql://127.0.0.1:3306/spring_cloud_db2?useSSL=false       #???url
+    url: jdbc:mysql://127.0.0.1:3306/spring_cloud_db2?useSSL=false&allowPublicKeyRetrieval=true       #???url
     driver-class-name: com.mysql.jdbc.Driver                  #?????
 ############################### ??? spring.config.import=configserver:##################
 #  cloud:
